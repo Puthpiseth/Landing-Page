@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(253, 249, 249);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* header */
+
+.container {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header {
+  background-color: green;
+  color: white;
+  padding-top: 20px;
+  min-height: 70px;
+  border-bottom: rgb(241, 146, 146) 3px solid;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 1em;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  display: inline;
+  float: left;
+  padding: 0 20px 0 20px;
+  margin-top: 15px;
+}
+
+header nav {
+  float: right;
+}
+
+header .highlight {
+  color: rgb(255, 102, 0);
+  font-weight: bold;
+}
+
+header .logo {
+  float: left;
+}
+
+header a:hover {
+  color: rgb(255, 102, 0);
+}
+
+/* showcase */
+
+.showcase {
+  min-height: 500px;
+  background-image: url(Projectimages/Calculator_image.jpg);
+  position: relative;
+  text-align: center;
+}
+
+.showcase h1 {
+  color: white;
+  font-size: 40px;
+  padding-top: 150px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.showcase p {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* About */
+
+.about {
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  margin: 30px 20px;
+}
+
+.text-wrap {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  margin: 20px 50px 20px 50px;
+  text-align: justify;
+}
+
+/* Services */
+
+.services {
+  color: black;
+  font-size: 25px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  min-height: 100%;
+}
+
+.box div {
+  color: black;
+  width: 30%;
+  text-align: center;
+  margin: 20px 50px 20px 50px;
+  background-color: white;
+  border: 1px;
+  box-shadow: 3px 3px 3px 3px rgb(207, 204, 204);
+  border-radius: 6px;
+}
+
+.box h4 {
+  margin-top: 0.5em;
+}
+.box p {
+  text-align: justify;
+  margin: 0.5em 0.5em 0.5em 0.5em;
+}
+
+.contact-heading {
+  color: black;
+  margin-top: 20px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.bottom-nav {
+  margin: 20px 20px;
+  text-align: center;
+}
+
+.bottom-nav a {
+  display: inline;
+  float: center;
+  color: black;
+  text-decoration: none;
+  margin-right: 4em;
+}
+
+.bottom-nav a:hover {
+  color: rgb(255, 102, 0);
+}
+
+@media all and (max-width: 1024px) {
+  body {
+    width: auto;
+  }
+
+  .showcase h1 {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  nav {
+    width: 100%;
+    text-align: center;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box div {
+    width: auto;
+  }
+
+  .bottom-nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bottom-nav a {
+    align-items: center;
+  }
+}
