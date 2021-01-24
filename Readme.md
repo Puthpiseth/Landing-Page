@@ -1,6 +1,6 @@
 ## Puthpiseth-Portfolio
 
-This is my first self-taught test Web Development project. Hope it gets better for next projects.
+This is my first self-taught project. Hope it gets better for next projects.
 
 ## Githup page of the App
 https://puthpiseth.github.io/Piseth-Portfolio/.
