@@ -1,4 +1,4 @@
-## Puthpiseth-Portfolio
+## Landing-Page
 
 This is my first self-taught project. Hope it gets better for next projects.
 
